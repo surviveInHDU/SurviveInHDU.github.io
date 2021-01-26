@@ -84,9 +84,9 @@ enableMissingTranslationPlaceholders = false
 [markup]
     defaultMarkdownHandler = "goldmark"
     [markup.goldmark.renderer]
-        unsafe= true
+        unsafe= false
     [markup.tableOfContents]
-        startLevel = 2
+        startLevel = 1
         endLevel = 6
         ordered = false
 
