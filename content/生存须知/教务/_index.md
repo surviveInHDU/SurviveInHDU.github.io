@@ -3,11 +3,10 @@ date: 2021-01-25T15:26:15Z
 lastmod: 2021-01-25T15:26:15Z
 publishdate: 2021-01-25T15:26:15Z
 
-title: 校医院
-description: 校医院
+title: 教务
+description: 教务
 weight: 1
+geekdocCollapseSection = true
 ---
 
 
-
-未 完 待 续
