@@ -5,5 +5,5 @@ publishdate:
 
 title: 观点
 description: Points
-weight: 90
+weight: 1
 ---
