@@ -1,9 +1,12 @@
 .env
 .env.build
 .DS_Store
+.localized
+.vscode
+.swp
+.bak
 node_modules
 *~
-.vscode
 package.json
 package-lock.json
 public
