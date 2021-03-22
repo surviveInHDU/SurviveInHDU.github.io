@@ -1,6 +1,7 @@
 .env
 .env.build
 .DS_Store
+.localized
 .vscode
 .swp
 .bak
