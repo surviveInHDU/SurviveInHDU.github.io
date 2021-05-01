@@ -24,18 +24,18 @@ enableGitInfo = true
 
   # (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
   # relative to your 'static/' folder.
-  geekdocLogo = "logo.png"
+  geekdocLogo = "shdu.png"
 
   # (Optional, default false) Render menu from data file im 'data/menu/main.yaml'.
   geekdocMenuBundle = true
 
   # (Optional, default true) Show page navigation links at the bottom of each
   # docs page (bundle menu only).
-  geekdocNextPrev = true
+  geekdocNextPrev = false
 
   # (Optional, default true) Show a breadcrumb navigation bar at the top of each docs page.
   # You can also specify this parameter per page in front matter.
-  geekdocBreadcrumb = false
+  geekdocBreadcrumb = true
 
   # (Optional, default none) Set source repository location. Used for 'Edit this page' links.
   # You can also specify this parameter per page in front matter.
@@ -44,11 +44,11 @@ enableGitInfo = true
   # (Optional, default none) Enable 'Edit this page' links. Requires 'GeekdocRepo' param
   # and path must point to 'content' directory of repo.
   # You can also specify this parameter per page in front matter.
-  geekdocEditPath = "tree/master/content"
+  geekdocEditPath = "tree/main/content"
 
   # (Optional, default true) Enables search function with flexsearch.
   # Index is built on the fly and might slowdown your website.
-  geekdocSearch = false
+  geekdocSearch = true
 
   # (Optional, default false) Display search results with the parent folder as prefix. This
   # option allows you to distinguish between files with the same name in different folders.
