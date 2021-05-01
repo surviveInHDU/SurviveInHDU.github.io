@@ -1,0 +1,14 @@
+---
+more:
+  - name: 如何投稿
+    icon: "gdoc_email"
+    ref: "/关于/如何投稿"
+  - name: 加入我们
+    icon: "gdoc_person"
+    ref: "/关于/加入我们"
+  - name: 贡献者名单
+    icon: "gdoc_github"
+    ref: "/关于/贡献者名单"
+  - name: 友情链接
+    icon: "gdoc_link"
+    ref: "/关于/友情链接"
