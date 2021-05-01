@@ -1,57 +1,64 @@
 ---
 main:
-  - name: 序
-    ref: "/序"
-  - name: 观点
-    ref: "/观点"
-  - name: 方向
+  - name: 前言
     sub:
-      - name: 考研 # foldable
-        ref: "/方向/考研"
-      - name: 出国 # foldable
-        ref: "/方向/出国"
-      - name: 保研 # foldable
-        ref: "/方向/保研"
-      - name: 就业 # foldable
-        ref: "/方向/就业"
-      - name: 考公 # foldable
-        ref: "/方向/考公"
-  - name: 生存须知
-    ref: "/生存须知"
+      - name: 序
+        ref: "/前言/序"
+      - name: 声明
+        ref: "/前言/声明"
+
+  - name: 杂谈
+    ref: "/杂谈/#"
+    icon: "gdoc_tags"
+
+  - name: 经验
+    ref: "/经验/#"
+    icon: "gdoc_bookmark"
     sub:
+      - name: 考研&保研 # foldable
+        ref: "/经验/考研_保研"
+      - name: 实习&就业 # foldable
+        ref: "/经验/实习_就业"
+      - name: 科研&竞赛 # foldable
+        ref: "/经验/科研_竞赛"
+      - name: 出国留学 # foldable
+        ref: "/经验/出国留学"
+
+  - name: 信息栏
+    icon: "gdoc_notification"
+    ref: "/信息栏/#"
+    sub:
+      - name: News
+        ref: "/信息栏/News"
+      - name: 竞赛 # foldable
+        ref: "/信息栏/竞赛"
+      - name: 讲座 # foldable
+        ref: "/信息栏/讲座"
+      - name: 活动 # foldable
+        ref: "/信息栏/活动"
+      - name: 招聘 # foldable
+        ref: "/信息栏/招聘"
       - name: 教务 # foldable
-        ref: "/生存须知/教务"
+        ref: "/信息栏/教务"
         sub:
-          - name: 选课 # foldable
-            ref: "/生存须知/教务/选课"
-          - name: 考试 # foldable
-            ref: "/生存须知/教务/考试"
-          - name: 转专业 # foldable
-            ref: "/生存须知/教务/转专业"
-          - name: 奖学金 # foldable
-            ref: "/生存须知/教务/奖学金"
+          - name: 选课
+            ref: "/信息栏/教务/选课"
+          - name: 考试
+            ref: "/信息栏/教务/考试"
+          - name: 转专业
+            ref: "/信息栏/教务/转专业"
+          - name: 奖学金
+            ref: "/信息栏/教务/奖学金"
       - name: 后勤 # foldable
-        ref: "/生存须知/后勤"
+        ref: "/信息栏/后勤"
         sub:
           - name: 一卡通
-            ref: "/生存须知/后勤/一卡通"
+            ref: "/信息栏/后勤/一卡通"
           - name: 校医院
-            ref: "/生存须知/后勤/校医院"
-  - name: 课外
-    ref: "/课外"
-    sub:
-      - name: 竞赛 # foldable
-      - ref: "/课外/竞赛"
-      - name: 项目 # foldable
-      - ref: "/课外/项目"
-      - name: 实习 # foldable
-      - ref: "/课外/实习"
-      - name: 实验室 # foldable
-      - ref: "/课外/实验室"
-      - name: 对外交流 # foldable
-      - ref: "/课外/对外交流"
+            ref: "/信息栏/后勤/校医院"
+
   - name: 附录
-    ref: "/附录"
+    # ref: "/附录/#"
     sub:
       - name: 毕业校友说
         ref: "/附录/毕业校友说"
