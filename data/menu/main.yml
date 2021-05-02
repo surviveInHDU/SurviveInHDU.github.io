@@ -10,6 +10,7 @@ main:
   - name: 杂谈
     ref: "/杂谈/#"
     icon: "gdoc_tags"
+    sub:
 
   - name: 经验
     ref: "/经验/#"
@@ -17,12 +18,16 @@ main:
     sub:
       - name: 考研&保研 # foldable
         ref: "/经验/考研_保研"
+        sub:
       - name: 实习&就业 # foldable
         ref: "/经验/实习_就业"
+        sub:
       - name: 科研&竞赛 # foldable
         ref: "/经验/科研_竞赛"
+        sub:
       - name: 出国留学 # foldable
         ref: "/经验/出国留学"
+        sub:
 
   - name: 信息栏
     icon: "gdoc_notification"
@@ -32,12 +37,16 @@ main:
         ref: "/信息栏/News"
       - name: 竞赛 # foldable
         ref: "/信息栏/竞赛"
+        sub:
       - name: 讲座 # foldable
         ref: "/信息栏/讲座"
+        sub:
       - name: 活动 # foldable
         ref: "/信息栏/活动"
+        sub:
       - name: 招聘 # foldable
         ref: "/信息栏/招聘"
+        sub:
       - name: 教务 # foldable
         ref: "/信息栏/教务"
         sub:
@@ -60,5 +69,9 @@ main:
   - name: 附录
     # ref: "/附录/#"
     sub:
-      - name: 毕业校友说
+      - name: 毕业校友说 # foldable
         ref: "/附录/毕业校友说"
+        sub:
+      - name: 常见问题Q&A
+        ref: "/附录/QA"
+        sub:
